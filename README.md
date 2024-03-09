@@ -19,7 +19,11 @@ To achieve the goal, the project is broken down into demoable applications or mi
 - [ ] Classify - classify data using an LLM, e.g. to filter out low-quality training data
 
 ## Installation instructions
-Each demoable application has its own installation instructions using Docker, which has the tremendous benefit of working in a clean environment and generating reproducible results.
+To achieve reproducible and clean development environments, this project relies on Docker. Each demoable application has its own installation instructions in its README file.
+
+### Installed extensions to have better and smoother Docker experience
+- Docker (makes it easy to create, manage, and debug containerized applications)
+- Dev containers (allows us to attach to running container)
 
 ## Usage and examples
 Coming soon in this document.
