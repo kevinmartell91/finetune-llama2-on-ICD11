@@ -9,14 +9,17 @@ To achieve the goal, the project is broken down into demoable applications or mi
 
 ## Milestone (demoable applications)
 
-- [ ] Chat app - calls an LLM (Slack)
+- [ ] Chat app - calls an LLM from:
+    - [X] Python client
+    - [ ] React client
+    - [ ] Slack client
 - [ ] Retrieval Augmented generation (RAG) - combine information retrieval with text generation to improve language models
 - [ ] Instruction Fine Tuning (IFT) - train the model using question-answer pairs
 - [ ] Evaluations - evaluate the quality of the LLM with RLHF-alike techniques (DPO) and RLAIF
 - [ ] Classify - classify data using an LLM, e.g. to filter out low-quality training data
 
 ## Installation instructions
-Each demoable application has its own installation instructions.
+Each demoable application has its own installation instructions using Docker, which has the tremendous benefit of working in a clean environment and generating reproducible results.
 
 ## Usage and examples
 Coming soon in this document.
