@@ -42,6 +42,14 @@ lamini.api_key = "<YOUR-LAMINI-API-KEY>"
 ```
 
 # Docker instruction
+
+## Environment variables
+Replace this line of code with your`LAMINI_API_KEY`:
+```bash
+LAMINI_API_KEY=YOUR_LAMINI_API_KEY_HERE
+```
+
+## Run from Docker
 Assuming you are in `/playground/python-client` folder directory, execute the following bash file.
 
 ```bash

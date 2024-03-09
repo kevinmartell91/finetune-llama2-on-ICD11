@@ -1,8 +1,9 @@
 import lamini
 import jsonlines
 from tqdm import tqdm
+import os
 
-lamini.api_key = "ee2b253c2bfa9e7d12bac3a30005ae031f9977822785b1f4cd2bb5104646d1ec"
+lamini.api_key = os.getenv("LAMINI_API_KEY")
 
 def main():
     """

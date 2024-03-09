@@ -22,4 +22,4 @@ chmod a+x $LOCAL_DIRECTORY/scripts/build_image.sh
 $LOCAL_DIRECTORY/scripts/build_image.sh
 
 # Run the docker container with volume mapping and interactive mode
-docker run -v $LOCAL_DIRECTORY/../data:/app/python-client/data -it python-client:latest $@
+docker run -v $LOCAL_DIRECTORY/../data:/app/python-client/data --env-file $LOCAL_DIRECTORY/../../../.env -it python-client:latest $@
